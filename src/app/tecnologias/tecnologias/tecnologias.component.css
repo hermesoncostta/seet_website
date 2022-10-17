@@ -1,0 +1,42 @@
+
+
+div.body-tecnologia{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body-tecnologia h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F3336;
+    font-size: 40px;
+}   
+
+div.descricao{
+    max-width: 1000px;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+main.card section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height:100%;
+  
+}
+
+main section div img{
+    width: 100px;
+    height: 100%;
+    padding: 30px;
+}

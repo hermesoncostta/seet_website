@@ -1,0 +1,88 @@
+ html{
+    scroll-behavior: smooth;
+ }
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+main{
+    background: url("../../../assets/images/contatobg.png") no-repeat;
+    background-size: cover;
+    min-height: 700px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    margin-left: 200px;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+main form input{
+    background-color: #e1e2e4;
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+main form textarea{
+    background-color: #e1e2e4;
+    width: 300px;
+    height: 100px;
+    padding: 0 10px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+main button.limpar{
+    background-color: #5AC1D3;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: background 1s;
+}
+main button.limpar:hover{
+  background: #3a91a0;
+}
+main button.enviar{
+    background-color: #5AC1D3;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: background 1s;
+}
+main button.enviar:hover{
+    background: #3a91a0;
+  }

@@ -1,0 +1,45 @@
+main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edeff2;
+ 
+}
+
+main.card{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+}
+
+
+main.card section.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    max-height: 300px;
+}
+
+main.card section.card:first-child{
+    margin-left: 0;
+}
+
+main.card section.card img{
+    width: 100px;
+}
+
+main.card section.card span{
+    max-width: 300px;
+    color: gray;
+}
+
+main.card section.card h3{
+    color: #2F3336;
+}
